@@ -1,0 +1,16 @@
+{
+    "ClassType": 7,
+    "Id": "189",
+    "Name": "Wall",
+    "Model": "assets/BasicCube.obj",
+    "Shader": "Unlit",
+    "Alpha": 1.0,
+    "Texture": "assets/concrete_modular_floor.png",
+    "Transform": {
+        "Position": [0.0, 0.0, 0.0],
+        "Rotation": [-90.0, 90.0, 0.0],
+        "Scale": [20.0, 1.0, 20.0]
+    },
+    "Childs": [],
+    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+}

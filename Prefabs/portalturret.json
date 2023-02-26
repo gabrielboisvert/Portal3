@@ -1,0 +1,18 @@
+{
+    "ClassType": 4,
+    "Id": "200",
+    "Name": "portalturret",
+    "Model": "assets/portal_turret/portalturret.obj",
+    "Shader": "Lit",
+    "Alpha": 1.0,
+    "Texture": "assets/portal_turret/textures/Turret_01.bmp",
+    "Transform": {
+        "Position": [0.0, 0.0, 0.0],
+        "Rotation": [0.0, -180.0, 0.0],
+        "Scale": [3.699998617172241, 3.699998617172241, 3.699998617172241]
+    },
+    "Childs": [],
+    "RigidBodySize": [1.0, 1.600000023841858, 1.0],
+    "Radius": 70.0,
+    "ViewAngle": 20.0
+}

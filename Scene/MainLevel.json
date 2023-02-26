@@ -1,0 +1,2562 @@
+{
+    "GameObjects": [
+        {
+            "ClassType": 5,
+            "Id": "148",
+            "Name": "Player",
+            "Model": "",
+            "Shader": "",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [84.54634857177734, 0.20002642273902893, 4.253627777099609],
+                "Rotation": [0.0, 446.19964599609375, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "RigidBodySize": [0.30000001192092896, 4.0, 0.20000000298023224],
+            "Grab range": 20.0,
+            "Fire range": 150.0,
+            "Jump force": 600.0
+        },
+        {
+            "ClassType": 0,
+            "Id": "175",
+            "Name": "Floor",
+            "Model": "",
+            "Shader": "",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [0.0, 0.0, 0.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [
+                {
+                    "ClassType": 0,
+                    "Id": "156",
+                    "Name": "GameObject",
+                    "Model": "",
+                    "Shader": "",
+                    "Alpha": 1.0,
+                    "Texture": "",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 0.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [1.0, 1.0, 1.0]
+                    },
+                    "Childs": [
+                        {
+                            "ClassType": 7,
+                            "Id": "151",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, -5.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "154",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, -5.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "152",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, -5.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "153",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, -40.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "155",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, -40.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        }
+                    ]
+                },
+                {
+                    "ClassType": 0,
+                    "Id": "157",
+                    "Name": "GameObject",
+                    "Model": "",
+                    "Shader": "",
+                    "Alpha": 1.0,
+                    "Texture": "",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 40.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [1.0, 1.0, 1.0]
+                    },
+                    "Childs": [
+                        {
+                            "ClassType": 7,
+                            "Id": "158",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, -5.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "159",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, -5.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "160",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, -5.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "161",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, -5.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "162",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, -5.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        }
+                    ]
+                },
+                {
+                    "ClassType": 0,
+                    "Id": "163",
+                    "Name": "GameObject",
+                    "Model": "",
+                    "Shader": "",
+                    "Alpha": 1.0,
+                    "Texture": "",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 120.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [1.0, 1.0, 1.0]
+                    },
+                    "Childs": [
+                        {
+                            "ClassType": 7,
+                            "Id": "164",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, -60.0, -40.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "165",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, -5.0, -40.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "166",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, -5.0, -40.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "167",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, -5.0, -40.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "168",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, -5.0, -40.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "225",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, -64.0, -60.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "226",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, -24.0, -60.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        }
+                    ]
+                },
+                {
+                    "ClassType": 0,
+                    "Id": "169",
+                    "Name": "GameObject",
+                    "Model": "",
+                    "Shader": "",
+                    "Alpha": 1.0,
+                    "Texture": "",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 120.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [1.0, 1.0, 1.0]
+                    },
+                    "Childs": [
+                        {
+                            "ClassType": 7,
+                            "Id": "170",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, -5.0, -160.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "171",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, -5.0, -160.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "172",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, -5.0, -160.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "173",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, -5.0, -160.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "174",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, -5.0, -160.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ClassType": 0,
+            "Id": "188",
+            "Name": "TestChamber01",
+            "Model": "",
+            "Shader": "",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [80.0, 0.0, 0.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [
+                {
+                    "ClassType": 0,
+                    "Id": "180",
+                    "Name": "Glass",
+                    "Model": "",
+                    "Shader": "",
+                    "Alpha": 1.0,
+                    "Texture": "",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 0.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [1.0, 1.0, 1.0]
+                    },
+                    "Childs": [
+                        {
+                            "ClassType": 7,
+                            "Id": "189",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [20.0, 0.0, -40.0],
+                                "Rotation": [0.0, 0.0, 90.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "190",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [20.0, 0.0, 0.0],
+                                "Rotation": [0.0, 0.0, 90.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "191",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, 0.0, -60.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "214",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, 20.0, -40.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "215",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, 20.0, 0.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        }
+                    ]
+                },
+                {
+                    "ClassType": 2,
+                    "Id": "5",
+                    "Name": "portalbutton",
+                    "Model": "assets/portalbutton/portalbutton.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/portalbutton/Button.bmp",
+                    "Transform": {
+                        "Position": [-14.399999618530273, -3.0, 14.800000190734863],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [7.49999475479126, 7.49999475479126, 7.49999475479126]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [0.6000000238418579, 0.07500000298023224, 0.6000000238418579]
+                }
+            ]
+        },
+        {
+            "ClassType": 3,
+            "Id": "185",
+            "Name": "Door_Single",
+            "Model": "assets/Ultimate Modular Sci-Fi/FBX/Door_Single.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [60.0, 5.0, -40.0],
+                "Rotation": [0.0, 90.0, 0.0],
+                "Scale": [15.0, 10.0, 1.0]
+            },
+            "Childs": [],
+            "RigidBodySize": [0.6499999761581421, 1.5, 1.0],
+            "Opened": false,
+            "Buttons": ["5"]
+        },
+        {
+            "ClassType": 0,
+            "Id": "190",
+            "Name": "TestChamber2",
+            "Model": "",
+            "Shader": "",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [0.0, 0.0, 0.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [
+                {
+                    "ClassType": 7,
+                    "Id": "189",
+                    "Name": "Wall",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [40.0, 0.0, 20.0],
+                        "Rotation": [-90.0, 0.0, 0.0],
+                        "Scale": [20.0, 1.0, 20.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "188",
+                    "Name": "Wall",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 20.0],
+                        "Rotation": [-90.0, 0.0, 0.0],
+                        "Scale": [20.0, 1.0, 20.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "187",
+                    "Name": "Wall",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [-20.0, 0.0, 0.0],
+                        "Rotation": [-90.0, 90.0, 0.0],
+                        "Scale": [20.0, 1.0, 20.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "192",
+                    "Name": "Quad",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [-20.0, 0.0, -25.0],
+                        "Rotation": [0.0, 90.0, -0.5],
+                        "Scale": [5.0, 20.0, 1.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.0, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "193",
+                    "Name": "Quad",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [-20.0, 0.0, -55.0],
+                        "Rotation": [0.0, 90.0, 0.0],
+                        "Scale": [5.0, 20.0, 1.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.0, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "200",
+                    "Name": "Wall",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [0.0, 0.0, -60.0],
+                        "Rotation": [-90.0, 0.0, 0.0],
+                        "Scale": [20.0, 1.0, 20.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "201",
+                    "Name": "Wall",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [40.0, 0.0, -60.0],
+                        "Rotation": [-90.0, 0.0, 0.0],
+                        "Scale": [20.0, 1.0, 20.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "202",
+                    "Name": "Wall",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/companion_cube/textures/DefaultMaterial_normal.png",
+                    "Transform": {
+                        "Position": [5.0, 0.0, -19.200000762939453],
+                        "Rotation": [-90.0, 0.0, 0.0],
+                        "Scale": [6.0, 1.0, 10.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                },
+                {
+                    "ClassType": 2,
+                    "Id": "203",
+                    "Name": "portalbutton",
+                    "Model": "assets/portalbutton/portalbutton.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/portalbutton/Button.bmp",
+                    "Transform": {
+                        "Position": [5.0, -3.0, -35.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [7.5, 7.5, 7.5]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [0.6000000238418579, 0.07500000298023224, 0.6000000238418579]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "210",
+                    "Name": "FloorTile_Basic",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [0.0, 20.0, 0.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [20.0, 1.0, 20.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "211",
+                    "Name": "FloorTile_Basic",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [40.0, 20.0, 0.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [20.0, 1.0, 20.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "212",
+                    "Name": "FloorTile_Basic",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [40.0, 20.0, -40.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [20.0, 1.0, 20.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                },
+                {
+                    "ClassType": 7,
+                    "Id": "213",
+                    "Name": "FloorTile_Basic",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/concrete_modular_floor.png",
+                    "Transform": {
+                        "Position": [0.0, 20.0, -40.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [20.0, 1.0, 20.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                }
+            ]
+        },
+        {
+            "ClassType": 3,
+            "Id": "191",
+            "Name": "Door_Single",
+            "Model": "assets/Ultimate Modular Sci-Fi/FBX/Door_Single.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [-20.0, 5.0, -40.0],
+                "Rotation": [0.0, 90.0, 0.0],
+                "Scale": [15.0, 10.0, 1.0]
+            },
+            "Childs": [],
+            "RigidBodySize": [0.6499999761581421, 1.5, 1.0],
+            "Opened": false,
+            "Buttons": ["203"]
+        },
+        {
+            "ClassType": 4,
+            "Id": "200",
+            "Name": "portalturret",
+            "Model": "assets/portal_turret/portalturret.obj",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/portal_turret/textures/Turret_01.bmp",
+            "Transform": {
+                "Position": [19.09174919128418, 2.119999408721924, 14.219545364379883],
+                "Rotation": [0.0, -180.0, 0.0],
+                "Scale": [3.699998617172241, 3.699998617172241, 3.699998617172241]
+            },
+            "Childs": [],
+            "RigidBodySize": [1.0, 1.600000023841858, 1.0],
+            "Radius": 70.0,
+            "ViewAngle": 20.0
+        },
+        {
+            "ClassType": 4,
+            "Id": "202",
+            "Name": "portalturret",
+            "Model": "assets/portal_turret/portalturret.obj",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/portal_turret/textures/Turret_01.bmp",
+            "Transform": {
+                "Position": [-11.958559036254883, 2.1199657917022705, 15.099855422973633],
+                "Rotation": [0.0, -270.0, 0.0],
+                "Scale": [3.699998617172241, 3.699998617172241, 3.699998617172241]
+            },
+            "Childs": [],
+            "RigidBodySize": [1.0, 1.600000023841858, 1.0],
+            "Radius": 70.0,
+            "ViewAngle": 45.0
+        },
+        {
+            "ClassType": 0,
+            "Id": "203",
+            "Name": "TestChamber3",
+            "Model": "",
+            "Shader": "",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [0.0, 0.0, 0.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [
+                {
+                    "ClassType": 0,
+                    "Id": "204",
+                    "Name": "Walls",
+                    "Model": "",
+                    "Shader": "",
+                    "Alpha": 1.0,
+                    "Texture": "",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 0.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [1.0, 1.0, 1.0]
+                    },
+                    "Childs": [
+                        {
+                            "ClassType": 7,
+                            "Id": "205",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-100.0, -40.0, 0.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "206",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-100.0, 0.0, -40.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "207",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, 0.0, -60.0],
+                                "Rotation": [-90.0, 180.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "208",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, 40.0, -60.0],
+                                "Rotation": [-90.0, 180.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "209",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, 0.0, -60.0],
+                                "Rotation": [-90.0, 180.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "210",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, 40.0, -60.0],
+                                "Rotation": [-90.0, 180.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "211",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-100.0, 40.0, -40.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "214",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-20.0, 40.0, -40.0],
+                                "Rotation": [-90.0, -90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "204",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-100.0, 0.0, 0.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "205",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-20.0, -40.0, 0.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "206",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, -25.0, 20.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "207",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, -25.0, 20.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "208",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, -25.0, -21.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "209",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, -25.0, -21.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "204",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-100.0, 40.0, 0.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "205",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-20.0, 40.0, 0.0],
+                                "Rotation": [0.0, -90.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "206",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-40.0, 60.0, 0.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "207",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-80.0, 60.0, 0.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "208",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-80.0, 60.0, -40.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "209",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-40.0, 60.0, -40.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "216",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-40.0, 46.0, 33.0],
+                                "Rotation": [135.0, 0.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "217",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-80.0, 46.0, 33.0],
+                                "Rotation": [135.0, 0.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "218",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-100.0, 40.0, 40.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "219",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-20.0, 40.0, 40.0],
+                                "Rotation": [0.0, -90.0, 0.0],
+                                "Scale": [20.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "220",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-80.0, 28.600000381469727, 51.20000076293945],
+                                "Rotation": [135.0, 0.0, 0.0],
+                                "Scale": [20.0, 12.699999809265137, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "221",
+                            "Name": "Glass",
+                            "Model": "assets/Quad.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-40.0, 28.600000381469727, 51.20000076293945],
+                                "Rotation": [135.0, 0.0, 0.0],
+                                "Scale": [20.0, 12.699999809265137, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ClassType": 0,
+            "Id": "222",
+            "Name": "TestChamber4",
+            "Model": "",
+            "Shader": "",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [0.0, 0.0, 0.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [
+                {
+                    "ClassType": 0,
+                    "Id": "232",
+                    "Name": "Wall",
+                    "Model": "",
+                    "Shader": "",
+                    "Alpha": 1.0,
+                    "Texture": "",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 0.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [1.0, 1.0, 1.0]
+                    },
+                    "Childs": [
+                        {
+                            "ClassType": 7,
+                            "Id": "223",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-100.0, 0.0, 40.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "224",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-100.0, 0.0, 80.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "225",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, 0.0, 100.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "227",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, 0.0, 100.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "228",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, 0.0, 100.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "229",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, 0.0, 100.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "230",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [100.0, 0.0, 40.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "231",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [100.0, 0.0, 80.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "233",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-80.0, 20.0, 80.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "234",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, 20.0, 80.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "235",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, 20.0, 80.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "236",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, 20.0, 80.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "237",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, 20.0, 80.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "238",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, 20.0, 40.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "239",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, 20.0, 40.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "240",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, 20.0, 40.0],
+                                "Rotation": [0.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "260",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [60.0, 0.0, 40.0],
+                                "Rotation": [-90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "261",
+                            "Name": "Quad",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [60.0, 0.0, 65.0],
+                                "Rotation": [0.0, 90.0, -0.5],
+                                "Scale": [5.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "262",
+                            "Name": "Quad",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [60.0, 0.0, 94.0],
+                                "Rotation": [0.0, 90.0, -0.5],
+                                "Scale": [5.0, 20.0, 1.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0]
+                        }
+                    ]
+                },
+                {
+                    "ClassType": 0,
+                    "Id": "240",
+                    "Name": "Downstairs",
+                    "Model": "",
+                    "Shader": "",
+                    "Alpha": 1.0,
+                    "Texture": "",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 0.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [1.0, 1.0, 1.0]
+                    },
+                    "Childs": [
+                        {
+                            "ClassType": 7,
+                            "Id": "227",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [0.0, -40.0, 99.80000305175781],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "228",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-20.0, -24.0, 80.0],
+                                "Rotation": [90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "229",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-20.0, -64.0, 80.0],
+                                "Rotation": [90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "231",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, -40.0, 100.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "232",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, -40.0, 100.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "233",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [100.0, -40.0, 80.0],
+                                "Rotation": [90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "234",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, -24.0, 60.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "235",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, -24.0, 60.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "236",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, -64.0, 60.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "237",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, -64.0, 60.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "238",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [40.0, -60.0, 80.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "239",
+                            "Name": "FloorTile_Basic",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [80.0, -60.0, 80.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        }
+                    ]
+                },
+                {
+                    "ClassType": 0,
+                    "Id": "244",
+                    "Name": "Couloir",
+                    "Model": "",
+                    "Shader": "",
+                    "Alpha": 1.0,
+                    "Texture": "",
+                    "Transform": {
+                        "Position": [0.0, 0.0, 0.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [1.0, 1.0, 1.0]
+                    },
+                    "Childs": [
+                        {
+                            "ClassType": 3,
+                            "Id": "245",
+                            "Name": "BasicCube",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-39.79999923706055, 0.0, 180.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "246",
+                            "Name": "BasicCube",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-20.0, 0.0, 120.0],
+                                "Rotation": [90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "247",
+                            "Name": "BasicCube",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-20.0, 0.0, 160.0],
+                                "Rotation": [90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "248",
+                            "Name": "BasicCube",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-60.0, 0.0, 160.0],
+                                "Rotation": [90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "249",
+                            "Name": "BasicCube",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-60.0, 0.0, 120.0],
+                                "Rotation": [90.0, 90.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "250",
+                            "Name": "BasicCube",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-40.0, 20.0, 160.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "251",
+                            "Name": "BasicCube",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-40.0, 20.0, 120.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "252",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, -20.0, 120.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "253",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, -20.0, 160.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 7,
+                            "Id": "254",
+                            "Name": "Wall",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/concrete_modular_floor.png",
+                            "Transform": {
+                                "Position": [-40.0, -24.0, 98.0],
+                                "Rotation": [90.0, 0.0, 0.0],
+                                "Scale": [20.0, 2.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.2000000476837158, 1.0]
+                        },
+                        {
+                            "ClassType": 3,
+                            "Id": "257",
+                            "Name": "BasicCube",
+                            "Model": "assets/BasicCube.obj",
+                            "Shader": "Lit",
+                            "Alpha": 1.0,
+                            "Texture": "assets/frosted-glass.jpg",
+                            "Transform": {
+                                "Position": [-40.0, 0.800000011920929, 190.0],
+                                "Rotation": [0.0, 0.0, 0.0],
+                                "Scale": [20.0, 1.0, 20.0]
+                            },
+                            "Childs": [],
+                            "RigidBodySize": [1.0, 1.0, 1.0],
+                            "Opened": false,
+                            "Buttons": []
+                        }
+                    ]
+                },
+                {
+                    "ClassType": 2,
+                    "Id": "260",
+                    "Name": "portalbutton",
+                    "Model": "assets/portalbutton/portalbutton.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/portalbutton/Button.bmp",
+                    "Transform": {
+                        "Position": [30.200000762939453, -3.0, 93.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [7.49999475479126, 7.49999475479126, 7.49999475479126]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [0.6000000238418579, 0.07500000298023224, 0.6000000238418579]
+                },
+                {
+                    "ClassType": 2,
+                    "Id": "261",
+                    "Name": "portalbutton",
+                    "Model": "assets/portalbutton/portalbutton.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/portalbutton/Button.bmp",
+                    "Transform": {
+                        "Position": [40.20000076293945, -3.0, 93.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [7.49999475479126, 7.49999475479126, 7.49999475479126]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [0.6000000238418579, 0.07500000298023224, 0.6000000238418579]
+                },
+                {
+                    "ClassType": 2,
+                    "Id": "262",
+                    "Name": "portalbutton",
+                    "Model": "assets/portalbutton/portalbutton.obj",
+                    "Shader": "Lit",
+                    "Alpha": 1.0,
+                    "Texture": "assets/portalbutton/Button.bmp",
+                    "Transform": {
+                        "Position": [50.20000076293945, -3.0, 93.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [7.49999475479126, 7.49999475479126, 7.49999475479126]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [0.6000000238418579, 0.07500000298023224, 0.6000000238418579]
+                }
+            ]
+        },
+        {
+            "ClassType": 3,
+            "Id": "263",
+            "Name": "Door_Single",
+            "Model": "assets/Ultimate Modular Sci-Fi/FBX/Door_Single.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [60.0, 5.0, 79.5],
+                "Rotation": [0.0, 90.0, 0.0],
+                "Scale": [15.0, 10.0, 1.0]
+            },
+            "Childs": [],
+            "RigidBodySize": [0.6499999761581421, 1.5, 1.0],
+            "Opened": false,
+            "Buttons": ["260", "261", "262"]
+        },
+        {
+            "ClassType": 1,
+            "Id": "224",
+            "Name": "cube",
+            "Model": "assets/companion_cube/cube.gltf",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/companion_cube/textures/DefaultMaterial_baseColor.jpeg",
+            "Transform": {
+                "Position": [83.81222534179688, -1.7999917268753052, -48.428443908691406],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [2.0, 2.0, 2.0]
+            },
+            "Childs": [],
+            "RigidBodySize": [1.0, 1.0, 1.0]
+        },
+        {
+            "ClassType": 6,
+            "Id": "241",
+            "Name": "FloorTile_Empty",
+            "Model": "assets/Ultimate Modular Sci-Fi/FBX/FloorTile_Empty.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [0.0, -5.0, 80.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [20.0, 1.0, 20.0]
+            },
+            "Childs": [],
+            "RigidBodySize": [1.0, 1.0, 1.0],
+            "Max": [0.0, -52.0, 0.0],
+            "Duration": 3.0
+        },
+        {
+            "ClassType": 1,
+            "Id": "243",
+            "Name": "cube",
+            "Model": "assets/companion_cube/cube.gltf",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/companion_cube/textures/DefaultMaterial_baseColor.jpeg",
+            "Transform": {
+                "Position": [79.92865753173828, -56.799991607666016, 80.00090026855469],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [2.0, 2.0, 2.0]
+            },
+            "Childs": [],
+            "RigidBodySize": [1.0, 1.0, 1.0]
+        },
+        {
+            "ClassType": 6,
+            "Id": "258",
+            "Name": "FloorTile_Empty",
+            "Model": "assets/Ultimate Modular Sci-Fi/FBX/FloorTile_Empty.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [-40.0, -5.0, 120.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [20.0, 1.0, 20.0]
+            },
+            "Childs": [],
+            "RigidBodySize": [1.0, 1.0, 1.0],
+            "Max": [0.0, 0.0, 40.0],
+            "Duration": 3.0
+        },
+        {
+            "ClassType": 1,
+            "Id": "259",
+            "Name": "cube",
+            "Model": "assets/companion_cube/cube.gltf",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/companion_cube/textures/DefaultMaterial_baseColor.jpeg",
+            "Transform": {
+                "Position": [-52.68604278564453, 3.8000080585479736, 174.20095825195313],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [2.0, 2.0, 2.0]
+            },
+            "Childs": [],
+            "RigidBodySize": [1.0, 1.0, 1.0]
+        },
+        {
+            "ClassType": 11,
+            "Id": "228",
+            "Name": "Radio",
+            "Model": "assets/aperture_radio/radio_wrapped_meshfixes.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/aperture_radio/textures/radio_new_AO.png",
+            "Transform": {
+                "Position": [56.20000076293945, -2.799999952316284, 65.5999984741211],
+                "Rotation": [0.0, -90.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "Musics": ["Sounds/Music/MainMenuMusic.mp3", "Sounds/Music/GamePlayMusic.mp3"]
+        },
+        {
+            "ClassType": 11,
+            "Id": "227",
+            "Name": "Radio",
+            "Model": "assets/aperture_radio/radio_wrapped_meshfixes.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/aperture_radio/textures/radio_new_AO.png",
+            "Transform": {
+                "Position": [-27.399999618530273, 3.0, 173.39999389648438],
+                "Rotation": [0.0, 235.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "Musics": ["Sounds/Music/MainMenuMusic.mp3", "Sounds/Music/GamePlayMusic.mp3"]
+        },
+        {
+            "ClassType": 11,
+            "Id": "226",
+            "Name": "Radio",
+            "Model": "assets/aperture_radio/radio_wrapped_meshfixes.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/aperture_radio/textures/radio_new_AO.png",
+            "Transform": {
+                "Position": [-92.19999694824219, -2.799999952316284, -52.0],
+                "Rotation": [0.0, 45.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "Musics": ["Sounds/Music/MainMenuMusic.mp3", "Sounds/Music/GamePlayMusic.mp3"]
+        },
+        {
+            "ClassType": 11,
+            "Id": "225",
+            "Name": "Radio",
+            "Model": "assets/aperture_radio/radio_wrapped_meshfixes.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/aperture_radio/textures/radio_new_AO.png",
+            "Transform": {
+                "Position": [5.400000095367432, 11.0, -19.799999237060547],
+                "Rotation": [0.0, 180.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "Musics": ["Sounds/Music/MainMenuMusic.mp3", "Sounds/Music/GamePlayMusic.mp3"]
+        },
+        {
+            "ClassType": 11,
+            "Id": "224",
+            "Name": "Radio",
+            "Model": "assets/aperture_radio/radio_wrapped_meshfixes.fbx",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/aperture_radio/textures/radio_new_AO.png",
+            "Transform": {
+                "Position": [98.19999694824219, -2.799999952316284, -30.799999237060547],
+                "Rotation": [0.0, -90.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "Musics": ["Sounds/Music/MainMenuMusic.mp3", "Sounds/Music/GamePlayMusic.mp3"]
+        },
+        {
+            "ClassType": 9,
+            "Id": "224",
+            "Name": "Point Light",
+            "Model": "assets/BasicCube.obj",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [79.19999694824219, 17.0, -20.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "Diffuse": [1.0, 1.0, 1.0, 1.0],
+            "Ambient": [1.0, 1.0, 1.0, 0.5],
+            "Specular": [1.0, 1.0, 1.0, 1.0],
+            "Constant": 1.0,
+            "Linear": 0.007000000216066837,
+            "Quadratic": 0.00019999999494757503
+        },
+        {
+            "ClassType": 9,
+            "Id": "225",
+            "Name": "Point Light",
+            "Model": "assets/BasicCube.obj",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [15.199999809265137, 18.600000381469727, -12.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "Diffuse": [1.0, 1.0, 1.0, 0.800000011920929],
+            "Ambient": [1.0, 1.0, 1.0, 0.30000001192092896],
+            "Specular": [1.0, 1.0, 1.0, 1.0],
+            "Constant": 1.0,
+            "Linear": 0.007000000216066837,
+            "Quadratic": 0.00019999999494757503
+        },
+        {
+            "ClassType": 9,
+            "Id": "226",
+            "Name": "Point Light",
+            "Model": "assets/BasicCube.obj",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [-60.0, 59.20000076293945, 0.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "Diffuse": [1.0, 1.0, 1.0, 0.800000011920929],
+            "Ambient": [1.0, 1.0, 1.0, 0.30000001192092896],
+            "Specular": [1.0, 1.0, 1.0, 1.0],
+            "Constant": 1.0,
+            "Linear": 0.007000000216066837,
+            "Quadratic": 0.00019999999494757503
+        },
+        {
+            "ClassType": 10,
+            "Id": "227",
+            "Name": "Spot Light",
+            "Model": "assets/BasicCube.obj",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [-58.599998474121094, 9.399999618530273, 100.4000015258789],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [],
+            "Direction": [0.0, 0.0, 1.0],
+            "Diffuse": [1.0, 1.0, 1.0, 0.800000011920929],
+            "Ambient": [1.0, 1.0, 1.0, 0.30000001192092896],
+            "Specular": [1.0, 1.0, 1.0, 1.0],
+            "Constant": 1.0,
+            "Linear": 0.007000000216066837,
+            "Quadratic": 0.00019999999494757503,
+            "CutOff": 10.399999618530273,
+            "OuterCutOff": 11.399999618530273
+        },
+        {
+            "ClassType": 4,
+            "Id": "231",
+            "Name": "portalturret",
+            "Model": "assets/portal_turret/portalturret.obj",
+            "Shader": "Lit",
+            "Alpha": 1.0,
+            "Texture": "assets/portal_turret/textures/Turret_01.bmp",
+            "Transform": {
+                "Position": [80.0, 0.0, 24.799999237060547],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [3.699998617172241, 3.699998617172241, 3.699998617172241]
+            },
+            "Childs": [],
+            "RigidBodySize": [1.0, 1.600000023841858, 1.0],
+            "Radius": 70.0,
+            "ViewAngle": 45.0
+        },
+        {
+            "ClassType": 0,
+            "Id": "223",
+            "Name": "GlassRenderAtEnd",
+            "Model": "",
+            "Shader": "",
+            "Alpha": 1.0,
+            "Texture": "",
+            "Transform": {
+                "Position": [0.0, 0.0, 0.0],
+                "Rotation": [0.0, 0.0, 0.0],
+                "Scale": [1.0, 1.0, 1.0]
+            },
+            "Childs": [
+                {
+                    "ClassType": 3,
+                    "Id": "176",
+                    "Name": "Quad",
+                    "Model": "assets/Quad.obj",
+                    "Shader": "Lit",
+                    "Alpha": 0.5,
+                    "Texture": "assets/frosted-glass.jpg",
+                    "Transform": {
+                        "Position": [60.0, 0.0, 0.0],
+                        "Rotation": [0.0, 90.0, 0.0],
+                        "Scale": [20.0, 20.0, 1.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.0, 1.0],
+                    "Opened": false,
+                    "Buttons": []
+                },
+                {
+                    "ClassType": 3,
+                    "Id": "177",
+                    "Name": "Quad",
+                    "Model": "assets/Quad.obj",
+                    "Shader": "Lit",
+                    "Alpha": 0.5,
+                    "Texture": "assets/frosted-glass.jpg",
+                    "Transform": {
+                        "Position": [80.0, 0.0, 20.0],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [20.0, 20.0, 1.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.0, 1.0],
+                    "Opened": false,
+                    "Buttons": []
+                },
+                {
+                    "ClassType": 3,
+                    "Id": "181",
+                    "Name": "Quad",
+                    "Model": "assets/Quad.obj",
+                    "Shader": "Lit",
+                    "Alpha": 0.5,
+                    "Texture": "assets/frosted-glass.jpg",
+                    "Transform": {
+                        "Position": [60.0, 0.0, -25.0],
+                        "Rotation": [0.0, 90.0, 0.0],
+                        "Scale": [5.0, 20.0, 1.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.0, 1.0],
+                    "Opened": false,
+                    "Buttons": []
+                },
+                {
+                    "ClassType": 3,
+                    "Id": "182",
+                    "Name": "Quad",
+                    "Model": "assets/Quad.obj",
+                    "Shader": "Lit",
+                    "Alpha": 0.5,
+                    "Texture": "assets/frosted-glass.jpg",
+                    "Transform": {
+                        "Position": [60.0, 0.0, -55.0],
+                        "Rotation": [0.0, 90.0, 0.0],
+                        "Scale": [5.0, 20.0, 1.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.0, 1.0],
+                    "Opened": false,
+                    "Buttons": []
+                },
+                {
+                    "ClassType": 3,
+                    "Id": "216",
+                    "Name": "Glass",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 0.5,
+                    "Texture": "assets/frosted-glass.jpg",
+                    "Transform": {
+                        "Position": [-80.0, 6.800000190734863, 19.799999237060547],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [20.0, 12.0, 1.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.0, 1.0],
+                    "Opened": false,
+                    "Buttons": []
+                },
+                {
+                    "ClassType": 3,
+                    "Id": "215",
+                    "Name": "Glass",
+                    "Model": "assets/BasicCube.obj",
+                    "Shader": "Lit",
+                    "Alpha": 0.5,
+                    "Texture": "assets/frosted-glass.jpg",
+                    "Transform": {
+                        "Position": [-40.0, 6.800000190734863, 19.799999237060547],
+                        "Rotation": [0.0, 0.0, 0.0],
+                        "Scale": [20.0, 12.0, 1.0]
+                    },
+                    "Childs": [],
+                    "RigidBodySize": [1.0, 1.0, 1.0],
+                    "Opened": false,
+                    "Buttons": []
+                }
+            ]
+        }
+    ]
+}

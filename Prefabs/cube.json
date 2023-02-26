@@ -1,0 +1,16 @@
+{
+    "ClassType": 1,
+    "Id": "224",
+    "Name": "cube",
+    "Model": "assets/companion_cube/cube.gltf",
+    "Shader": "Unlit",
+    "Alpha": 1.0,
+    "Texture": "assets/companion_cube/textures/DefaultMaterial_baseColor.jpeg",
+    "Transform": {
+        "Position": [0.0, 0.0, 0.0],
+        "Rotation": [0.0, 0.0, 0.0],
+        "Scale": [2.0, 2.0, 2.0]
+    },
+    "Childs": [],
+    "RigidBodySize": [1.0, 1.0, 1.0]
+}

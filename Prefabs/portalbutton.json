@@ -1,0 +1,16 @@
+{
+    "ClassType": 2,
+    "Id": "186",
+    "Name": "portalbutton",
+    "Model": "assets/portalbutton/portalbutton.obj",
+    "Shader": "Unlit",
+    "Alpha": 1.0,
+    "Texture": "assets/portalbutton/Button.bmp",
+    "Transform": {
+        "Position": [0.0, 0.0, 0.0],
+        "Rotation": [0.0, 0.0, 0.0],
+        "Scale": [7.49999475479126, 7.49999475479126, 7.49999475479126]
+    },
+    "Childs": [],
+    "RigidBodySize": [0.6000000238418579, 0.07500000298023224, 0.6000000238418579]
+}
