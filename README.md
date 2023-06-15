@@ -27,7 +27,7 @@ Remake of the game portal as a student project in team of 2 during 4 week. No Ga
 ![alt text](https://github.com/gabrielboisvert/Portal3/blob/main/ScreenShot/image25.gif) 
 ![alt text](https://github.com/gabrielboisvert/Portal3/blob/main/ScreenShot/image24.gif)
 
-![alt text](https://github.com/gabrielboisvert/Portal3/blob/main/ScreenShot/Portal.pngg)
+![alt text](https://github.com/gabrielboisvert/Portal3/blob/main/ScreenShot/Portal.png)
 
 ![alt text](https://github.com/gabrielboisvert/Portal3/blob/main/ScreenShot/Gameplay1.png)
 
